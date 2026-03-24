@@ -1,0 +1,165 @@
+{
+  "aboutMe": {
+    "title": "關於我",
+    "content": [
+      "我具備軟體開發專案管理(PM)的背景，過去負責從接收需求到產品上線的整體流程，皆由我負責規劃與管理。我擅長收斂模糊的需求並產出清晰的開發文件，讓前、後端工程師及 QA 人員能以最低的溝通成本落實需求細節",
+      "在與工程師密切合作的過程中，我意識到，如果能理解程式實作的方式，就能更精準的溝通需求與技術細節，因此主動開始自學前端技術。從 HTML、CSS 打下基礎，逐步學習 JavaScript，並透過實作練習與線上課程持續深化理解。在學習的過程中，不僅提升了與工程師溝通的效率，也逐漸培養出對開發的興趣與成就感",
+      "隨著學習的深入，我參與了為期九個月的前端培訓課程，並在過程中完成二項由我自行發想的專題。在專題執行期間，我擔任組長，負責統籌團隊共識與溝通。因過去具備專案經驗，在專題討論功能時，能協助判斷哪些方向較為可行，哪些可能會增加開發成本，當組員遇到問題時，也能提供較具體的建議與解法，幫助大家更快找到方向並順利完成專案",
+      "結合過去的 PM 經驗與現在的開發能力，我在實作時會先從整體需求與流程去思考，而不只是專注在單一功能上。也因為曾經需要在不同角色之間溝通，讓我更容易提前察覺潛在問題，減少開發過程中的反覆修改，讓整體協作更順暢"
+    ]
+  },
+  "coreValues": [
+    {
+      "id": 1,
+      "title": "具備產品視角的開發思維",
+      "description": "不只實作功能，更從使用者情境出發構思開發架構，確保產出符合產品核心"
+    },
+    {
+      "id": 2,
+      "title": "跨角色的技術溝通",
+      "description": "憑藉溝通經驗，對齊不同職能間的需求認知，減少團隊協作的資訊落差"
+    },
+    {
+      "id": 3,
+      "title": "規格釐清與細節實作",
+      "description": "開發前釐清功能細節與例外情境，從源頭降低錯誤與反覆修改的成本。"
+    },
+    {
+      "id": 4,
+      "title": "專案視角的開發協作",
+      "description": "具備專案時程意識，能主動評估功能可行性並優化開發流程"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend Core",
+      "title": "前端核心技術",
+      "items": ["JavaScript (ES6+)", "React", "React Router"]
+    },
+    {
+      "category": "State Management",
+      "title": "狀態管理",
+      "items": ["Redux Toolkit"]
+    },
+    {
+      "category": "UI & Styling",
+      "title": "介面樣式與設計",
+      "items": ["CSS3", "Sass", "Bootstrap", "Tailwind CSS", "RWD"]
+    },
+    {
+      "category": "Data Fetching & API",
+      "title": "資料串接與處理",
+      "items": ["RESTful API", "Axios"]
+    },
+    {
+      "category": "Tools & Workflow",
+      "title": "開發工具與環境",
+      "items": ["Git", "GitHub", "Vite", "NPM"]
+    },
+    {
+      "category": "Learning Path",
+      "title": "持續學習中",
+      "items": ["TypeScript", "AI Agent", "Next.js"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "projects-1",
+			"createdYear": 2026,
+      "category": "current",
+      "title": "個人介紹 - Nora.dev",
+      "techStack": ["React", "Tailwind", "RWD"],
+      "image": "/assets/images/greengo-cover.png",
+      "description": [
+        "這個作品的初衷，是希望把自己過往的作品集中在同一個網頁上，讓瀏覽者能一次性瀏覽多個作品內容。同時，也藉此實作練習 Tailwind。由於培訓期間主要使用 Bootstrap，因此在培訓結束後自行學習 Tailwind，並嘗試從設計配色到前端開發皆由自己完成。整體作品發想上，是以個人為商品，透過「商品介紹」的方式來呈現，讓瀏覽者可以更直觀的了解個人能力與特質。",
+				"資料內容則建立在 JSON 檔案中，方便後續更新時只需修改檔案即可。"
+        ],
+      "links": {
+        "repo": "https://github.com/0811nora/greengo",
+        "demo": "https://0811nora.github.io/greengo/"
+      }
+    },
+    {
+      "id": "projects-2",
+			"createdYear": 2026,
+      "category": "current",
+      "title": "電商點餐平台 - 綠果 | 輕食工坊",
+      "techStack": ["React", "Bootstrap","RWD","Axios","Redux Toolkit"],
+      "image": "/assets/images/greengo-cover.png",
+      "description": [
+				"這項作品為培訓期間使用 React 框架所完成的專題，發想源自於我平時有重訓與飲食管理的習慣，因此以健康飲食為主軸，並結合 poke 店家可自由搭配餐點的特性，延伸出可即時計算三大營養素的功能構想。",
+				"在專案中，我擔任組長，負責整體專案規劃與架構設計，並進行前後端整合與進度控管，確保各項功能能順利串接與如期完成。技術面上，負責 API 串接與 Router 設定；前台實作客製化餐點頁（具備即時熱量計算功能）與文章總覽頁；後台則負責文章管理系統，包含新增、修改、刪除與篩選功能，並導入富文字編輯器，提升內容編輯的彈性與效率。"
+			],
+      "links": {
+        "repo": "https://github.com/0811nora/greengo",
+        "demo": "https://0811nora.github.io/greengo/"
+      }
+    },
+		{
+      "id": "projects-3",
+			"createdYear": 2026,
+      "category": "current",
+      "title": "電商購物車 - 馬卡龍專賣店",
+      "techStack":  ["React", "Bootstrap","RWD","Axios","Redux Toolkit"],
+      "image": "/assets/images/greengo-cover.png",
+      "description": [
+				"這個作品為培訓期間第七堂作業(總共8堂作業)，目標是完成一個購物車基本流程的電商網頁。",
+				"前台可瀏覽商品、加入購物車並操作購買流程，後台提供商品管理功能，包括新增、編輯與刪除，並實作了登入功能以管理使用者操作。雖然原本是作業要求，但它涵蓋了電商最小可行性的購物流程，因此我將它進一步完成與優化，作為一個完整的作品來展示，呈現前後台基本功能與購物流程。"
+			],
+      "links": {
+        "repo": "https://github.com/0811nora/react-task-week7",
+        "demo": "https://0811nora.github.io/react-task-week7/"
+      }
+    },
+		{
+      "id": "projects-4",
+			"createdYear": 2025,
+      "category": "past",
+      "title": "預約系統 - 默隅 Moonook",
+      "techStack": ["Bootstrap","RWD"],
+      "image": "/assets/images/greengo-cover.png",
+      "description": [
+				"此作品為培訓期間完成的切版專題，專注於前端畫面實作與使用者操作流程設計，未涉及資料串接。",
+				"專題發想源自於我自身在咖啡廳讀書的經驗，經常遇到現場沒有座位或被佔位的情況，因此希望打造一個預約系統，讓使用者可以事先查看空位並完成預約，到店後再進行報到，提升整體使用體驗與空間利用效率。",
+				"在專案中，我是發想人並擔任組長，負責整體專案規劃、頁面架構設計與網站流程安排，並進行團隊協作與進度控管。",
+				"開發的部分，主要負責『預約頁』與『登入介面』的切版與互動設計，當時也會基本的JS，所以透過 localstorage 去切換登入狀態，著重在操作流程的順暢度與使用者體驗的細節呈現。"
+			],
+      "links": {
+        "repo": "https://github.com/0811nora/moonook-demo",
+        "demo": "https://0811nora.github.io/moonook-demo/"
+      }
+    },
+		{
+      "id": "projects-5",
+			"createdYear": 2025,
+      "category": "past",
+      "title": "番茄鐘 - Focus-Time",
+      "techStack": ["HTML", "CSS" ,"JavaScript"],
+      "image": "/assets/images/greengo-cover.png",
+      "description": [
+				"這項作品是我還是 PM 時期，尚未加入培訓班前的早期作品，整個專案完全由我自行發想與開發，樣式以純手寫 CSS 完成，並練習用 JavaScript 實作功能。",
+				"靈感來自我晨讀的習慣，當時喜歡將電腦螢幕設為大時鐘來輔助專注，因此結合番茄鐘概念，打造可自訂專注與休息時間的倒數計時工具。使用者可以設定專注時間與休息時間，並即時查看倒數計時，提升專注效率。",
+				"這個作品雖然在程式的撰寫上不夠成熟，但它展現了我從生活經驗出發、自主思考功能需求並動手實作的能力，也代表了我對前端互動設計與時間管理工具的早期嘗試。"
+			],
+      "links": {
+        "repo": "https://github.com/0811nora/Focus-Time",
+        "demo": "https://0811nora.github.io/Focus-Time/"
+      }
+    },
+		{
+      "id": "projects-6",
+			"createdYear": 2025,
+      "category": "past",
+      "title": "CSS 動畫合集",
+      "techStack": ["HTML", "CSS"],
+      "image": "/assets/images/greengo-cover.png",
+      "description": [
+				"這項作品是我還在 PM 時期、尚未加入培訓班前的早期作品，當時主要想藉此練習並熟悉 CSS 動畫的撰寫技巧。雖然現在有許多現成套件可以輕鬆實現動畫效果，但這樣的手動練習仍然非常有意義，加深動畫的撰寫基礎。"
+			],
+      "links": {
+        "repo": "https://github.com/0811nora/cssAnimation",
+        "demo": "https://0811nora.github.io/cssAnimation/"
+      }
+    }
+  ]
+}
