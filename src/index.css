@@ -47,7 +47,7 @@
   body {
     background-color: var(--color-bg-main);
     color: var(--color-text-main);
-    /* transition: all 0.3s ease; */
+    transition: all 0.3s ease;
   }
 }
 

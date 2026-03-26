@@ -69,9 +69,10 @@
       "category": "current",
       "title": "個人介紹 - Nora.dev",
       "techStack": ["React", "Tailwind", "RWD"],
-      "image": "/assets/images/greengo-cover.png",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1120&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": [
-        "這個作品的初衷，是希望把自己過往的作品集中在同一個網頁上，讓瀏覽者能一次性瀏覽多個作品內容。同時，也藉此實作練習 Tailwind。由於培訓期間主要使用 Bootstrap，因此在培訓結束後自行學習 Tailwind，並嘗試從設計配色到前端開發皆由自己完成。整體作品發想上，是以個人為商品，透過「商品介紹」的方式來呈現，讓瀏覽者可以更直觀的了解個人能力與特質。",
+        "這個作品的初衷，是希望把自己過往的作品集中在同一個網頁上，讓瀏覽者能一次性瀏覽多個作品內容，同時，也藉此實作練習 Tailwind。",
+        "由於培訓期間主要使用 Bootstrap，因此在培訓結束後自行學習 Tailwind，並嘗試從設計配色到前端開發皆由自己完成。整體作品發想上，是以個人為商品，透過「商品介紹」的方式來呈現，讓瀏覽者可以更直觀的了解個人能力與特質。",
         "資料內容則建立在 JSON 檔案中，方便後續更新時只需修改檔案即可。"
       ],
       "links": {
@@ -85,7 +86,7 @@
       "category": "current",
       "title": "電商點餐平台 - 綠果 | 輕食工坊",
       "techStack": ["React", "Bootstrap", "RWD", "Axios", "Redux Toolkit"],
-      "image": "/assets/images/greengo-cover.png",
+      "image": "/image/greengo-home.png",
       "description": [
         "這項作品為培訓期間使用 React 框架所完成的專題，發想源自於我平時有重訓與飲食管理的習慣，因此以健康飲食為主軸，並結合 poke 店家可自由搭配餐點的特性，延伸出可即時計算三大營養素的功能構想。",
         "在專案中，我擔任組長，負責整體專案規劃與架構設計，並進行前後端整合與進度控管，確保各項功能能順利串接與如期完成。技術面上，負責 API 串接與 Router 設定；前台實作客製化餐點頁（具備即時熱量計算功能）與文章總覽頁；後台則負責文章管理系統，包含新增、修改、刪除與篩選功能，並導入富文字編輯器，提升內容編輯的彈性與效率。"
@@ -101,7 +102,7 @@
       "category": "current",
       "title": "電商購物車 - 馬卡龍專賣店",
       "techStack": ["React", "Bootstrap", "RWD", "Axios", "Redux Toolkit"],
-      "image": "/assets/images/greengo-cover.png",
+      "image": "/image/macaron.home.png",
       "description": [
         "這個作品為培訓期間第七堂作業(總共8堂作業)，目標是完成一個購物車基本流程的電商網頁。",
         "前台可瀏覽商品、加入購物車並操作購買流程，後台提供商品管理功能，包括新增、編輯與刪除，並實作了登入功能以管理使用者操作。雖然原本是作業要求，但它涵蓋了電商最小可行性的購物流程，因此我將它進一步完成與優化，作為一個完整的作品來展示，呈現前後台基本功能與購物流程。"
@@ -117,7 +118,7 @@
       "category": "past",
       "title": "預約系統 - 默隅 Moonook",
       "techStack": ["Bootstrap", "RWD"],
-      "image": "/assets/images/greengo-cover.png",
+      "image": "/image/moonook.home.png",
       "description": [
         "此作品為培訓期間完成的切版專題，專注於前端畫面實作與使用者操作流程設計，未涉及資料串接。",
         "專題發想源自於我自身在咖啡廳讀書的經驗，經常遇到現場沒有座位或被佔位的情況，因此希望打造一個預約系統，讓使用者可以事先查看空位並完成預約，到店後再進行報到，提升整體使用體驗與空間利用效率。",
@@ -135,7 +136,7 @@
       "category": "past",
       "title": "番茄鐘 - Focus-Time",
       "techStack": ["HTML", "CSS", "JavaScript"],
-      "image": "/assets/images/greengo-cover.png",
+      "image": "/image/focusTime.png",
       "description": [
         "這項作品是我還是 PM 時期，尚未加入培訓班前的早期作品，整個專案完全由我自行發想與開發，樣式以純手寫 CSS 完成，並練習用 JavaScript 實作功能。",
         "靈感來自我晨讀的習慣，當時喜歡將電腦螢幕設為大時鐘來輔助專注，因此結合番茄鐘概念，打造可自訂專注與休息時間的倒數計時工具。使用者可以設定專注時間與休息時間，並即時查看倒數計時，提升專注效率。",
@@ -152,7 +153,7 @@
       "category": "past",
       "title": "CSS 動畫合集",
       "techStack": ["HTML", "CSS"],
-      "image": "/assets/images/greengo-cover.png",
+      "image": "/image/cssanimation.png",
       "description": [
         "這項作品是我還在 PM 時期、尚未加入培訓班前的早期作品，當時主要想藉此練習並熟悉 CSS 動畫的撰寫技巧。雖然現在有許多現成套件可以輕鬆實現動畫效果，但這樣的手動練習仍然非常有意義，加深動畫的撰寫基礎。"
       ],
