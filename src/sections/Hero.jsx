@@ -1,4 +1,4 @@
-import { BtnFull, BtnOutline, BtnStyle } from "../components/Button";
+import { BtnStyle } from "../components/Button";
 
 const Hero = () => {
   return (

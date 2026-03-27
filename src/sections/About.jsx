@@ -1,4 +1,4 @@
-import portfoiloData from "../../profileData.json";
+import portfoiloData from "../../portfolioData.json";
 import AboutCard from "../components/AboutCard";
 import SectionTitle from "../components/SectionTitle";
 

@@ -1,9 +1,11 @@
-import { BtnFull, BtnStyle } from "../components/Button";
+import { BtnStyle } from "../components/Button";
 
-const ProjectCard = ({ data }) => {
+const ProjectCard = ({ data, handleIsOpen }) => {
   return (
     <>
-      <div className="flex cursor-pointer flex-col overflow-hidden rounded-2xl shadow-[0_0_20px_0] shadow-primary/40 transition hover:scale-102 hover:shadow-primary/80">
+      <div
+        className="flex cursor-pointer flex-col overflow-hidden rounded-2xl shadow-[0_0_20px_0] shadow-primary/40 transition hover:scale-102 hover:shadow-primary/80"
+        onClick={handleIsOpen}>
         <div className="relative shrink-0">
           <img className="h-60 w-full object-cover" src={data.image} alt="" />
           <span className="absolute right-0 bottom-0 m-3 rounded-2xl bg-primary/60 px-3 py-0.5 font-medium text-dark">
