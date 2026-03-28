@@ -32,7 +32,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 z-50 w-full bg-bg-main/80 shadow-md shadow-black/20 backdrop-blur-md">
+      <header className="fixed top-0 left-0 z-50 w-full bg-bg-main/80 shadow-md shadow-black/20 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-3 py-3 md:px-4 lg:px-8">
           <div>
             <img className="block dark:hidden" src="/noraDev-light.svg" alt="logo" />
@@ -71,7 +71,7 @@ const NavBar = () => {
             <ShowList handleMode={() => setIsDark(!isDark)} data={navbarList} mode={"flex-col lg:hidden flex"} />
           </div>
         )}
-      </div>
+      </header>
     </>
   );
 };

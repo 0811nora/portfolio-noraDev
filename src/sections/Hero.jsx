@@ -10,8 +10,12 @@ const Hero = () => {
           <span className="ml-3 md:ml-6">具產品思維的開發者</span>
         </p>
         <div className="flex gap-8">
-          <BtnStyle text={"作品集"} size={"w-full py-2 text-lg  px-10 md:py-3 md:w-auto font-black"} isFull={true} />
-          <BtnStyle text={"聯絡我"} size={"w-full py-2 text-lg  px-10 md:py-3 md:w-auto font-black"} isFull={false} />
+          <BtnStyle
+            text={"作品集"}
+            size={"text-center w-full py-3 text-lg  px-10 md:py-3 md:w-auto font-black"}
+            isFull={true}
+          />
+          <BtnStyle text={"聯絡我"} size={"w-full py-3 text-lg  px-10 md:py-3 md:w-auto font-black"} isFull={false} />
         </div>
       </section>
     </>

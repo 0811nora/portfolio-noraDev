@@ -12,7 +12,7 @@ export const BtnStyle = ({ href, isFull, icon, text, size }) => {
         className={`${baseStyle} ${isFull ? fullStyle : outlineStyle} ${size}`}
         href={href}
         target={href ? "_blank" : ""}>
-        <span className="flex items-center gap-1">
+        <span className="flex items-center justify-center gap-1">
           <img src={icon} className="mt-[1.5px]" alt="" />
           {text}
         </span>

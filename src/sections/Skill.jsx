@@ -24,7 +24,7 @@ const Skill = () => {
               </div>
               <div className="mb-8 flex flex-wrap items-center gap-6 lg:mb-4">
                 {data.items.map((i) => (
-                  <span className="rounded-lg border-2 px-5 py-2.5 text-base tracking-wider md:px-6 lg:text-lg">
+                  <span className="rounded-lg border-3 px-5 py-2 text-base font-medium tracking-wider md:px-6 lg:text-lg">
                     {i}
                   </span>
                 ))}
