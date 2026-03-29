@@ -7,10 +7,5 @@ export default defineConfig(({ command }) => {
   return {
     plugins: [react(), tailwindcss()],
     base: command === "build" ? "/portfolio-noraDev/" : "/",
-    resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "./src"),
-      },
-    },
   };
 });
