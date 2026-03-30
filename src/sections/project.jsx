@@ -32,7 +32,7 @@ const Project = () => {
 
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
               {currentData.map((item) => (
-                <ProjectCard data={item} handleIsOpen={() => handleDetail(item.id)} />
+                <ProjectCard data={item} handleIsOpen={() => handleDetail(item.id)} key={item.id} />
               ))}
             </div>
           </div>
@@ -44,7 +44,7 @@ const Project = () => {
 
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
               {pastData.map((item) => (
-                <ProjectCard data={item} handleIsOpen={() => handleDetail(item.id)} />
+                <ProjectCard data={item} handleIsOpen={() => handleDetail(item.id)} key={item.id} />
               ))}
             </div>
           </div>

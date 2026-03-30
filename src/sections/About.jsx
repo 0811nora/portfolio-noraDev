@@ -16,7 +16,9 @@ const About = () => {
             <div
               className={`${isExpand ? "max-h-500" : "max-h-80"} overflow-hidden transition-all duration-800 lg:max-h-none lg:overflow-visible`}>
               {portfoiloData.aboutMe.content.map((content) => (
-                <p className="mb-6 text-justify indent-12 text-lg leading-9">{content}</p>
+                <p className="mb-6 text-justify indent-12 text-lg leading-9" key={content}>
+                  {content}
+                </p>
               ))}
             </div>
 
@@ -35,9 +37,9 @@ const About = () => {
                   viewBox="0 0 24 24">
                   <path
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m5 15 7-7 7 7"
                   />
                 </svg>
@@ -52,7 +54,7 @@ const About = () => {
 
             <div className="mx-auto grid grid-cols-1 gap-9 lg:grid-cols-2">
               {portfoiloData.coreValues.map((data) => (
-                <AboutCard data={data} />
+                <AboutCard data={data} key={data.id} />
               ))}
             </div>
           </div>

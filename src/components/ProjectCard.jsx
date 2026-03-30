@@ -17,7 +17,9 @@ const ProjectCard = ({ data, handleIsOpen }) => {
             <h5 className="mb-6 text-xl font-bold">{data.title}</h5>
             <div className="mb-6 flex flex-wrap gap-3">
               {data["techStack"].map((i) => (
-                <span className="rounded-2xl bg-secondary px-2 py-0.5 text-sm font-medium text-dark">{i}</span>
+                <span className="rounded-2xl bg-secondary px-2 py-0.5 text-sm font-medium text-dark" key={i}>
+                  {i}
+                </span>
               ))}
             </div>
 

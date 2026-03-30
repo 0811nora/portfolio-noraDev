@@ -33,7 +33,9 @@ const ProjectModal = ({ data, onClose }) => {
                   <p className="mb-5 text-sm">作品年份：{data?.createdYear}</p>
                   <div className="mb-5 flex flex-wrap gap-3">
                     {data["techStack"]?.map((i) => (
-                      <span className="rounded-2xl bg-secondary px-2 py-0.5 text-sm font-medium text-dark">{i}</span>
+                      <span className="rounded-2xl bg-secondary px-2 py-0.5 text-sm font-medium text-dark" key={i}>
+                        {i}
+                      </span>
                     ))}
                   </div>
                   <div className="flex flex-1 flex-col justify-between">
@@ -60,7 +62,9 @@ const ProjectModal = ({ data, onClose }) => {
             <div className="border-t border-text-main/30 pt-10">
               <h3 className="mb-6 text-xl font-bold text-primary"># 作品說明</h3>
               {data?.description?.map((content) => (
-                <p className="mb-6 leading-8">{content}</p>
+                <p className="mb-6 leading-8" key={content}>
+                  {content}
+                </p>
               ))}
             </div>
           </div>
