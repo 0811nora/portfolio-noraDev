@@ -16,8 +16,8 @@ const Contact = () => {
             <ScrollReveal direction="right" delay={0.3}>
               <div className="mx-auto flex w-4/5 items-center justify-center gap-3 rounded-lg bg-primary/50 py-6 text-lg font-bold tracking-wide md:text-xl lg:w-70">
                 <span className="w-6">
-                  <img className="mt-1 hidden w-full dark:block" src="/email-dark.svg" alt="" />
-                  <img className="mt-1 w-full dark:hidden" src="/email-light.svg" alt="" />
+                  <img className="mt-1 hidden w-full dark:block" src="email-dark.svg" alt="email icon" />
+                  <img className="mt-1 w-full dark:hidden" src="email-light.svg" alt="email icon" />
                 </span>
                 {contact.email}
               </div>
@@ -25,8 +25,8 @@ const Contact = () => {
             <ScrollReveal direction="left" delay={0.3}>
               <div className="mx-auto flex w-4/5 items-center justify-center gap-3 rounded-lg bg-primary/50 py-6 text-lg font-bold tracking-wide md:text-xl lg:w-70">
                 <span className="w-6">
-                  <img className="mt-1 hidden w-full dark:block" src="/phone-dark.svg" alt="" />
-                  <img className="mt-1 w-full dark:hidden" src="/phone-light.svg" alt="" />
+                  <img className="mt-1 hidden w-full dark:block" src="phone-dark.svg" alt="phone icon" />
+                  <img className="mt-1 w-full dark:hidden" src="phone-light.svg" alt="phone icon" />
                 </span>
                 {contact.phone}
               </div>

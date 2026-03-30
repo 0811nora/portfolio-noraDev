@@ -18,8 +18,8 @@ const ProjectModal = ({ data, onClose }) => {
           transition={{ duration: 0.25, ease: "easeOut" }}
           onClick={(e) => e.stopPropagation()}>
           <button className="absolute top-5 right-8 cursor-pointer" onClick={onClose}>
-            <img src="/close-dark.svg" className="hidden w-8 dark:block" alt="" />
-            <img src="/close-light.svg" className="w-8 dark:hidden" alt="" />
+            <img src="close-dark.svg" className="hidden w-8 dark:block" alt="關閉按鈕" />
+            <img src="close-light.svg" className="w-8 dark:hidden" alt="關閉按鈕" />
           </button>
 
           <div className="">

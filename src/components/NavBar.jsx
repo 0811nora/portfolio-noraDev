@@ -52,8 +52,8 @@ const NavBar = () => {
         ref={navRef}>
         <div className="mx-auto flex max-w-7xl items-center justify-between px-3 py-4 md:px-6 lg:px-8">
           <a href="#" className="cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <img className="block dark:hidden" src="/noraDev-light.svg" alt="logo" />
-            <img className="hidden dark:block" src="/noraDev.svg" alt="logo" />
+            <img className="block dark:hidden" src="noraDev-light.svg" alt="logo" />
+            <img className="hidden dark:block" src="noraDev.svg" alt="logo" />
           </a>
 
           <ShowList

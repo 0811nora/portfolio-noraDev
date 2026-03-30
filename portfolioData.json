@@ -88,7 +88,7 @@
       "category": "current",
       "title": "電商點餐平台 - 綠果 | 輕食工坊",
       "techStack": ["React", "Bootstrap", "RWD", "Axios", "Redux Toolkit"],
-      "image": "/image/greengo-home.png",
+      "image": "image/greengo-home.png",
       "description": [
         "這項作品為培訓期間使用 React 框架所完成的專題，發想源自於我平時有重訓與飲食管理的習慣，因此以健康飲食為主軸，並結合 poke 店家可自由搭配餐點的特性，延伸出可即時計算三大營養素的功能構想。",
         "在專案中，我擔任組長，負責整體專案規劃與架構設計，並進行前後端整合與進度控管，確保各項功能能順利串接與如期完成。",
@@ -105,7 +105,7 @@
       "category": "current",
       "title": "電商購物車 - 馬卡龍專賣店",
       "techStack": ["React", "Bootstrap", "RWD", "Axios", "Redux Toolkit"],
-      "image": "/image/macaron.home.png",
+      "image": "image/macaron.home.png",
       "description": [
         "這個作品源自培訓期間的作業題目，原本只要求完成基本購物流程與後台功能，畫面不在評分範圍內，在開發時，主動進行介面設計與視覺優化，將它作為一個完整的輕量電商作品來呈現，而不只是達成作業要求。",
         "前台涵蓋商品瀏覽、加入購物車與完整購買流程；後台則提供商品管理功能，包含新增、編輯與刪除，並實作登入機制以控管操作權限，完整呈現電商前後台的核心流程。"
@@ -121,7 +121,7 @@
       "category": "past",
       "title": "預約系統 - 默隅 Moonook",
       "techStack": ["Bootstrap", "RWD"],
-      "image": "/image/moonook.home.png",
+      "image": "image/moonook.home.png",
       "description": [
         "此作品為培訓期間完成的切版專題，專注於前端畫面實作與使用者操作流程設計，未涉及資料串接。",
         "專題發想源自於我自身在咖啡廳讀書的經驗，經常遇到現場沒有座位或被佔位的情況，因此希望打造一個預約系統，讓使用者可以事先查看空位並完成預約，到店後再進行報到，提升整體使用體驗與空間利用效率。",
@@ -139,7 +139,7 @@
       "category": "past",
       "title": "番茄鐘 - Focus-Time",
       "techStack": ["HTML", "CSS", "JavaScript"],
-      "image": "/image/focusTime.png",
+      "image": "image/focusTime.png",
       "description": [
         "這項作品是我還是 PM 時期，尚未加入培訓班前的早期作品，整個專案完全由我自行發想與開發，樣式以純手寫 CSS 完成，並練習用 JavaScript 實作功能。",
         "靈感來自我晨讀的習慣，當時喜歡將電腦螢幕設為大時鐘來輔助專注，因此結合番茄鐘概念，打造可自訂專注與休息時間的倒數計時工具，使用者可以設定專注時間與休息時間，並即時查看倒數計時，提升專注效率。",
@@ -156,7 +156,7 @@
       "category": "past",
       "title": "CSS 動畫合集",
       "techStack": ["HTML", "CSS"],
-      "image": "/image/cssanimation.png",
+      "image": "image/cssanimation.png",
       "description": [
         "這項作品是我還在 PM 時期、尚未加入培訓班前的早期作品，當時主要想藉此練習並熟悉 CSS 動畫的撰寫技巧，透過手動實作加深對動畫原理的理解，奠定後續開發的基礎"
       ],
