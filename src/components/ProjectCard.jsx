@@ -28,14 +28,14 @@ const ProjectCard = ({ data, handleIsOpen }) => {
             <BtnStyle
               text={"GitHub"}
               size={"px-4 py-2 font-bold"}
-              icon={"/github-icon.svg"}
+              icon={"github-icon.svg"}
               href={data.links.repo}
               isFull={true}
             />
             <BtnStyle
               text={"Demo"}
               size={"px-4 py-2 font-bold"}
-              icon={"/link-external.svg"}
+              icon={"link-external.svg"}
               href={data.links.demo}
               isFull={true}
             />
