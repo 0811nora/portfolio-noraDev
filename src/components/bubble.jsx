@@ -191,43 +191,43 @@ function BubbleBackground({
         {/* 大球 — 左上 */}
         <WanderingOrb
           colorVar="--first-color"
-          size="size-[58%]"
+          size="size-[60%]"
           initialTop="-10%"
           initialLeft="-10%"
-          range={220}
+          range={200}
           minDuration={5}
           maxDuration={6}
         />
 
         {/* 小球 — 右上 */}
-        <WanderingOrb
+        {/* <WanderingOrb
           colorVar="--second-color"
-          size="size-[36%]"
+          size="size-[60%]"
           initialTop="8%"
           initialRight="8%"
           range={-150}
           minDuration={5}
           maxDuration={10}
-        />
+        /> */}
 
         {/* 中球 — 左下 */}
-        <WanderingOrb
+        {/* <WanderingOrb
           colorVar="--third-color"
-          size="size-[44%]"
+          size="size-[60%]"
           initialBottom="-5%"
           initialLeft="5%"
           range={130}
           minDuration={7}
           maxDuration={10}
-        />
+        /> */}
 
         {/* 大球 — 右下 */}
         <WanderingOrb
           colorVar="--fourth-color"
-          size="size-[52%]"
-          initialBottom="-10%"
+          size="size-[58%]"
+          initialBottom="10%"
           initialRight="-10%"
-          range={260}
+          range={250}
           minDuration={6}
           maxDuration={12}
         />
@@ -235,9 +235,9 @@ function BubbleBackground({
         {/* 小球 — 中央偏右 */}
         <WanderingOrb
           colorVar="--fifth-color"
-          size="size-[29%]"
-          initialTop="25%"
-          initialLeft="60%"
+          size="size-[60%]"
+          initialTop="50%"
+          initialLeft="50%"
           range={160}
           minDuration={4}
           maxDuration={8}
@@ -246,8 +246,8 @@ function BubbleBackground({
         {/* 中球 — 中央偏左 */}
         <WanderingOrb
           colorVar="--sixth-color"
-          size="size-[60%]"
-          initialTop="40%"
+          size="size-[40%]"
+          initialTop="20%"
           initialLeft="20%"
           range={300}
           minDuration={6}

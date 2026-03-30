@@ -5,7 +5,7 @@ import Project from "./sections/project";
 import Skill from "./sections/Skill";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import { BubbleBackground } from "./components/animate-ui/components/backgrounds/bubble";
+import { BubbleBackground } from "./components/bubble";
 
 function App() {
   return (
@@ -15,12 +15,12 @@ function App() {
           className="fixed inset-0 -z-10"
           interactive={true}
           colors={{
-            first: "21,167,226", // #15a7e2 主藍
-            second: "8,134,193", // #0886c1 深藍
-            third: "62,190,242", // #3ebef2 亮藍
-            fourth: "8,107,156", // #086b9c 暗藍
-            fifth: "129,212,248", // #81d4f8 淺藍
-            sixth: "11,155,210", // 介於中間的藍，增加層次
+            first: "55,107,250",
+            second: "55,133,250",
+            third: "55,62,250",
+            fourth: "116,110,250",
+            fifth: "250,225,82",
+            sixth: "21,167,226",
           }}
         />
         <div className="mx-auto w-full max-w-7xl px-3 pt-20 md:px-4 lg:px-8">

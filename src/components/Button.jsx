@@ -4,6 +4,8 @@ export const BtnStyle = ({ href, isFull, icon, text, size }) => {
   const fullStyle = `bg-primary text-dark `;
   const outlineStyle = `border-2 border-primary bg-transparent text-primary hover:text-dark `;
 
+  const isInternal = href?.startsWith("#");
+
   const Mode = href ? "a" : "button";
 
   return (
@@ -11,7 +13,7 @@ export const BtnStyle = ({ href, isFull, icon, text, size }) => {
       <Mode
         className={`${baseStyle} ${isFull ? fullStyle : outlineStyle} ${size}`}
         href={href}
-        target={href ? "_blank" : ""}>
+        target={href && !isInternal ? "_blank" : ""}>
         <span className="flex items-center justify-center gap-1">
           <img src={icon} className="mt-[1.5px]" alt="" />
           {text}
