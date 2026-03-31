@@ -13,6 +13,7 @@ const ProjectCard = ({ data, handleIsOpen }) => {
           </span>
         </div>
         <div className="flex flex-1 flex-col justify-between p-6">
+          sssssss
           <div className="flex-1">
             <h5 className="mb-6 text-xl font-bold">{data.title}</h5>
             <div className="mb-6 flex flex-wrap gap-3">
@@ -25,18 +26,17 @@ const ProjectCard = ({ data, handleIsOpen }) => {
 
             <p className="mb-8 line-clamp-3 opacity-70">{data.description[0]}</p>
           </div>
-
-          <div className="mt-auto flex flex-wrap gap-6">
+          <div className="mt-auto flex flex-nowrap gap-6">
             <BtnStyle
               text={"GitHub"}
-              size={"px-4 py-2 font-bold"}
+              size={" py-2 font-bold w-full"}
               icon={"github-icon.svg"}
               href={data.links.repo}
               isFull={true}
             />
             <BtnStyle
               text={"Demo"}
-              size={"px-4 py-2 font-bold"}
+              size={" py-2 font-bold w-full"}
               icon={"link-external.svg"}
               href={data.links.demo}
               isFull={true}

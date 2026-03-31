@@ -22,15 +22,15 @@ const ProjectModal = ({ data, onClose }) => {
           </button>
 
           <div className="">
-            <div className="mb-8 grid-cols-[45%_55%] gap-8 md:grid">
+            <div className="mb-4 gap-8 md:grid md:grid-cols-[45%_1fr] lg:mb-8">
               <div className="mt-6 mb-4 overflow-hidden rounded-2xl">
                 <img className="h-56 w-full object-cover" src={data.image} alt="" />
               </div>
-              <div className="">
+              <div className="min-w-0">
                 <div className="flex h-full flex-col justify-between py-4">
                   <h5 className="mb-2 text-xl font-bold">{data?.title}</h5>
                   <p className="mb-5 text-sm">作品年份：{data?.createdYear}</p>
-                  <div className="mb-5 flex flex-wrap gap-3">
+                  <div className="mb-6 flex flex-wrap gap-3">
                     {data["techStack"]?.map((i) => (
                       <span className="rounded-2xl bg-secondary px-2 py-0.5 text-sm font-medium text-dark" key={i}>
                         {i}
@@ -38,18 +38,18 @@ const ProjectModal = ({ data, onClose }) => {
                     ))}
                   </div>
                   <div className="flex flex-1 flex-col justify-between">
-                    <div className="mt-auto flex flex-wrap gap-6">
+                    <div className="mt-auto flex flex-nowrap gap-6">
                       <BtnStyle
                         text={"GitHub"}
-                        size={"px-4 py-2 font-bold"}
-                        icon={"/github-icon.svg"}
+                        size={" py-2 font-bold w-full"}
+                        icon={"github-icon.svg"}
                         href={data?.links?.repo}
                         isFull={true}
                       />
                       <BtnStyle
                         text={"Demo"}
-                        size={"px-4 py-2 font-bold"}
-                        icon={"/link-external.svg"}
+                        size={"py-2 font-bold w-full"}
+                        icon={"link-external.svg"}
                         href={data?.links?.demo}
                         isFull={true}
                       />
