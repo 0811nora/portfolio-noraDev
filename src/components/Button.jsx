@@ -13,7 +13,8 @@ export const BtnStyle = ({ href, isFull, icon, text, size }) => {
       <Mode
         className={`${baseStyle} ${isFull ? fullStyle : outlineStyle} ${size}`}
         href={href}
-        target={href && !isInternal ? "_blank" : ""}>
+        target={href && !isInternal ? "_blank" : ""}
+        onClick={(e) => e.stopPropagation()}>
         <span className="flex items-center justify-center gap-1">
           <img src={icon} className="mt-[1.5px]" alt="" />
           {text}

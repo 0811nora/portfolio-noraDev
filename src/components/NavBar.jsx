@@ -66,7 +66,7 @@ const NavBar = () => {
             <button className="cursor-pointer" onClick={() => setIsNavOpen(!isNavOpen)}>
               <img
                 className="block w-8 dark:hidden"
-                src={isNavOpen ? "/close-light.svg" : "/hamburger-light.svg"}
+                src={isNavOpen ? "close-light.svg" : "hamburger-light.svg"}
                 alt=""
               />
             </button>
@@ -74,11 +74,7 @@ const NavBar = () => {
             <button
               className="cursor-pointer rounded-md p-1 transition-all hover:bg-gray-700/50"
               onClick={() => setIsNavOpen(!isNavOpen)}>
-              <img
-                className="hidden w-8 dark:block"
-                src={isNavOpen ? "/close-dark.svg" : "/hamburger-dark.svg"}
-                alt=""
-              />
+              <img className="hidden w-8 dark:block" src={isNavOpen ? "close-dark.svg" : "hamburger-dark.svg"} alt="" />
             </button>
           </div>
         </div>
