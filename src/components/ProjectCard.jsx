@@ -13,7 +13,6 @@ const ProjectCard = ({ data, handleIsOpen }) => {
           </span>
         </div>
         <div className="flex flex-1 flex-col justify-between p-6">
-          sssssss
           <div className="flex-1">
             <h5 className="mb-6 text-xl font-bold">{data.title}</h5>
             <div className="mb-6 flex flex-wrap gap-3">
